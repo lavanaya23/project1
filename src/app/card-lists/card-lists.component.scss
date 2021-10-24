@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+
+.card {
+    width: 500px;
+    height: 265px;
+    background-image: linear-gradient(rgb(248, 242, 243),rgb(100, 197, 226));
+  }
+  
+  
+  @media screen and (max-width:550px) {
+    .card {
+      width: 700px;
+      justify-content: center;
+  
+    }
+  }
+  a,span,p{
+    font-family:Zen Antique Soft;
+    font-size: 16px;
+    font-style:normal;
+  }
+  .card:hover{
+    box-shadow: 0 15px 40px -20px #2c2f3a;
+    cursor: pointer;
+    // -webkit-transform: translateY(-10px);
+    // transform: translateY(-10px);
+  }

@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+// .card-body > :last-child {
+//   margin-bottom: 0;
+// }
+// .richText {
+//   position: relative;
+//   width: 100%;
+//   font-size: 25px;
+// }
+// .richText .richText-toolbar ul li {
+//   float: left;
+//   display: block;
+//   list-style: none;
+//   color:black;
+//     padding: 10px 15px;
+//     cursor: pointer;
+// }
+body{
+  // height: 100vh;
+  // background-image:linear-gradient(black,rgb(36, 35, 35));
+  // background-repeat:no-repeat;
+  background-color: rgb(53, 49, 49);
+
+}

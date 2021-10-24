@@ -1,0 +1,29 @@
+
+<div class="allcenter" *ngIf="loader">
+    <img src="assets/loading.gif" alt=""  width="100px" height="100px">
+</div>
+<div class="mx-auto">
+    
+    <div class="card-group ml-4 justify-content-start">
+      
+        <div *ngFor="let value of details">
+            <div class="row justify-content-center mr-2">
+                <div class="card m-2 p-3" >
+                    <h5 style="word-wrap:break-all">{{value.data.title}}</h5>
+                    <div class="text-left">
+                        <p style="font-size: 15px;">{{value.data. selftext|slice:0:200}}</p>
+
+                    </div>
+                    <div>
+                        <a class="btn btn-outline-danger text-dark btn-sm" [href]="value.data.url">Knowmore</a>
+                    </div>
+                    <div class="m-2">
+                        <p><span>Score:</span>{{value.data.score}}</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

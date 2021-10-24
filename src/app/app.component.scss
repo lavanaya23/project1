@@ -1,0 +1,74 @@
+.container {
+    max-width: 1200px;
+}
+
+.card {
+  // background-image:linear-gradient(black,white);
+  /* height: 100vh; */
+  width: 1091px;
+
+}
+/* 
+.row {
+  max-height: 100vh;
+} */
+
+/* .allCenter {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+} */
+
+.page {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  /* min-height: 100vh; */
+  // background-image:linear-gradient(black,white);
+
+}
+.page1{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 100vh;
+  // background-image:linear-gradient(black,white);
+
+}
+.page-single {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.row{
+    display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+margin-right: -0.75rem;
+margin-left: -0.75rem;
+}
+.h-100vh{
+  height: 100vh;
+}
+h1{
+  font-family: Zen Antique Soft ;
+}
